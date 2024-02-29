@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-DEFINE("server","localhost");
-DEFINE("user","root");
-DEFINE("password","");
-DEFINE("database","online_grocery");
+define("server","localhost");
+	define("user","root");
+	define("password","");
+	define("database","online_grocery");
 	function iud($query)
 	{
 		$cid=mysqli_connect(server,user,password,database) or die("connection error");
